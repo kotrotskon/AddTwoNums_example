@@ -21,11 +21,45 @@
         android:ems="10"
         android:inputType="numberDecimal" />
 
-    <Button
-        android:id="@+id/btn_add"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Add" />
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add" />
+
+        <Button
+            android:id="@+id/btn_min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Min" />
+
+        <Button
+            android:id="@+id/btn_mul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Mul" />
+
+        <Button
+            android:id="@+id/btn_div"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Div" />
+
+        <Button
+            android:id="@+id/btn_clr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Clr" />
+    </LinearLayout>
 
     <EditText
         android:id="@+id/edTxt_result"
